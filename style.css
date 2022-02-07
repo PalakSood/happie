@@ -1,0 +1,69 @@
+#showsketch{
+    float:right    
+    }
+    body{
+     background-color: yellowgreen;  
+     background-image: url("bg.gif"); 
+     background-position: center;
+     
+     background-size: cover;
+    }
+    h1{
+     background-color: aliceblue;   
+     color: blue;   
+    }
+    #showsketch{
+     padding-top: 10px;   
+    }
+    p{
+      padding-top: 10px;
+      font-size: 25px;  
+    }
+    canvas{
+        border: 5px solid rgb(231, 231, 73);
+        margin-top: 50px;
+        animation-name:example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        border-radius: 10%;
+        background-color: darkseagreen;
+    }
+    @keyframes example {
+     from{box-shadow: 1px 1px 30px grey} 
+     to{box-shadow: 1px 1px 30px red}   
+    }
+    
+    #animate{
+      margin-top:100px;
+      
+      
+     
+    }
+
+    #image1 {
+      width: 700;
+      height:400px;
+      margin-top:15px;
+      border-radius: 100%;
+      
+      
+    }
+    #stop{
+      width: 26px;
+      height:26px;
+    }
+    .images{
+      width: 100px;
+      height:100px;
+      
+    }
+
+    #image2 {
+      width: 0px;
+      height:0px;
+      
+      
+      visibility: hidden;
+      
+      
+    }
